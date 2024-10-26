@@ -1,0 +1,38 @@
+<div class="user">
+  {{!-- We want this next section to pull and append using js 
+  so it loops all of the blogs as well as the title and description, 
+  but the user-entry class will stay the same --}}
+
+  <div class="user-blog-cards">
+    <h1>These are all of your blogs.</h1>
+
+    <div class="user-blog-cards-header">
+      <h2>Title:</h2>
+      {{!-- Need for each render loop here --}}
+      <p>{{title}}</p>
+    </div>
+
+    <div class="user-blog-body">
+      <!-- We render the description below, using a Handlebars.js expression. -->
+      <h2>Description:</h2>
+      {{!-- Need for each render loop here --}}
+      <p>{{description}}</p>
+    </div>
+
+  </div>
+
+
+  <div class="user-entry">
+    <h2>What's on your mind?</h2>
+    <div class="user-entry-form">
+      <form action="/dashBoardRoutes" method="POST">
+        <label for="title">Title</label><br>
+        <input type="text" id="title" name="title" required><br>
+        <label for="description">Description</label><br>
+        <input class="text" id="description" name="description" required><br>
+        <button type="submit" id="Submit">Submit</button>
+      </form>
+      <!-- We render the description below, using a Handlebars.js expression. -->
+    </div>
+  </div>
+</div>

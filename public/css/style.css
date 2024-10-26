@@ -1,0 +1,94 @@
+body{
+    border: solid 15px black;
+}
+
+header{
+    color: white;
+    background-color: rgb(12, 230, 4);
+    height: fit-content;
+}
+
+.header{
+    font-size: 150%;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-size: 150%
+}
+
+/* .permissions form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20%;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+} */
+
+.permissions button{
+    font-size: large;
+}
+
+/* #email-login #password-login{
+    width: 500px;
+    height: 100px;
+} */
+
+.login h2, .signup h2{
+    font-size: 300%;
+    text-align: center;
+}
+
+.login-form{
+display:flex;
+flex-direction:column;
+column-gap: 20px;
+font-size: 200%;
+}
+
+.signup-form{
+    display:flex;
+    flex-direction:column;
+    column-gap: 20px;
+    font-size: 200%;
+}
+
+.user button{
+    font-size: large;
+
+}
+
+.user-blog-cards{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-entry{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 5%;
+    font-size: 200%;
+    padding-bottom: 5%;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20%;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+footer{
+    text-align: center;
+    font-size: 200%;
+    background-color: rgb(12, 230, 4);
+
+}

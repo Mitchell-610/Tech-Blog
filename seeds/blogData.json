@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "HTML",
+        "description": "HTML is a very good web dev application that allows users to create a webpage.",
+        "date_created": ,
+        "user_id": 1
+    },
+    {
+        "id": 2,
+        "title": "CSS",
+        "description": "CSS is a very good web dev application that allows users to desgin a webpage with colors and placement.",
+        "date_created": ,
+        "user_id": 2
+    },
+    {
+        "id": 3,
+        "title": "JS",
+        "description": "JS is a very good web dev application that allows users to create a webpage and place funcatally to it allowing for usage of things like buttons.",
+        "date_created": ,
+        "user_id": 3
+    }
+]

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Blog</title>
+  {{!-- <link rel="stylesheet" href="./css/jass.css"> --}}
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="dog">
+    <header>
+      <h1>
+        <p class="header">An amazing Tech Blog</p>
+      </h1>
+
+      <nav>
+        <!-- Conditionally render login or logout links -->
+        {{!-- {{#if logged_in}}
+        <button class="no-button" id="logout">logout</button>
+        {{else}}
+        <a href="/login">Signup/Login</a> 
+        {{/if}}         --}}
+        <a href="/">Home</a>
+        <a href="/dashboard">Dashboard</a> 
+      </nav>
+    </header>
+
+    <main class="container">
+      {{{ body }}}
+    </main>
+
+    <footer>
+      <p>If you have any questions or concerns about our site please feel to free contact us.</p>
+      <p>You can reach me at, Mheit602@gmail.com</p>
+    </footer>
+  </div>
+
+  <!-- Render script for logged in users only -->
+  {{!-- {{#if logged_in}}
+  <script src="/js/logout.js"></script>
+  {{/if}} --}}
+
+</body>
+</html>
